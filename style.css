@@ -9,17 +9,31 @@
 }
 
 .header{
-    padding: 0 0 2.75em 0;
-    margin: 0;
-    color: inherit;
-    font-weight: 600;
-    line-height: 1.75em;
-    margin-bottom: 1em;
-    height: 25px;
-    font-size: 1.5em;
-    letter-spacing: -0.025em;
+    height: 120px;
     text-align: center;
-    font-family: inherit;
+    vertical-align: middle;
+}
+
+.arcana{
+    font: inherit;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+    color: inherit;
+    line-height: 32.66px;
+    text-decoration: solid;
+    text-size-adjust: 100%;
+    vertical-align: center;
+
+}
+
+.by{
+    font-weight: 300;
+    font-size: 28px;
+    font-stretch: 100%;
+    font: inherit;
+    text-align: center;
+    text-size-adjust: 100%;
 }
 
 .subtitles{
@@ -58,9 +72,28 @@
     padding: 1.5em 0;
 }
 
+.button{
+    vertical-align: middle;
+    margin-left: 1em;
+    background-color: #37c0fb;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 1.5em;
+    line-height: 2.75em;
+    min-width: 9em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
 .icons{
     display: flex;
     flex-direction: row;
+    margin-top: 90px;
 }
 
 .column{
@@ -71,12 +104,80 @@
 .cell {
     display: flex;
     flex-direction: row;
-    background-color: red;
+    text-align: center;
     border-radius: 50%;
     margin: 7px auto;
-    height: 80px;
-    width: 80px;
-    text-align: center;
+    height: 100px;
+    width: 100px;
     cursor: default;
     background-color: #37c0fb;
 }
+
+.important-1, .important-2, .important-3{
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: -0.025em;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    text-decoration-color: rgb(71, 71, 71);
+}
+
+.sub-important{
+    color: rgb(71, 71, 71);
+    font-family: sans-serif;
+    font-size: 18.66px;
+    font-stretch: 100%;
+    font-weight: 300;
+    line-height: 28px;
+    width: 400px;
+    text-align: center;
+}
+
+.text{
+    height: 350px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.gigantic-heading{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -1.05px;
+    color: rgb(71, 71, 71);
+    line-height: 73.5px;
+}
+
+.smaller-subtitle{
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: -0.7px;
+    line-height: 28px;
+}
+
+.four-things{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2);
+
+}
+
+.square{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% / 2);
+}
+
+
